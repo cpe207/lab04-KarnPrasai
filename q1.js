@@ -4,7 +4,7 @@ function typeChecker(a, b) {
     else if (typeof a === "number" && typeof b === "number")
         return a + b;
     else if (typeof a !== typeof b)
-        return "NOR MATCHED";
+        return "NOT MATCHED";
 }
 //Test cases
 var a1 = "Jack";

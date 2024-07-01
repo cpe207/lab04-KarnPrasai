@@ -1,5 +1,9 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let astring = "";
+  for(let i = 0;i<a.length;i++) {
+    astring += a[i];
+  }
+  return astring;
 }
 
 const c1 = [1, 2, 3];
@@ -11,3 +15,5 @@ console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
+
+//กานต์ ปราศัย 660610742
